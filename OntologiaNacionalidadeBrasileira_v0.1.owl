@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#"
+     xml:base="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira/1.0"/>
+        <rdfs:comment xml:lang="pt-br">Objetivo:
+Desenvolver uma ontologia que permita inferir a nacionalidade brasileira nata ou naturalizada de acordo com as regras da Constituição do Brasil.
+Escopo:
+As classes serão modeladas rigoramente com atributos, relacionamentos e restrições estritamente necessárias para atingir o objetivo da ontologia e responder às questões de domínio.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Brasil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Brasil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pais"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Exterior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Exterior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Exterior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Vinculo_juridico"/>
+        <rdfs:comment xml:lang="pt-br">vínculo jurídico. Tipo de relação jurídica específica.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Naturalizado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Naturalizado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Naturalizado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pais"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pessoa_fisica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pessoa_fisica">
+        <rdfs:comment xml:lang="pt-br">Pessoa física. De acordo com o artigo Sistemas determinadores da nacionalidade da pessoa jurídica... - Célio de Jesus, a CF no art. 12 está falando apenas sobre pessoas físicas.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Vinculo_juridico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Vinculo_juridico">
+        <rdfs:comment xml:lang="pt-br">Tipo de relação jurídica genérica</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pais"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pessoa_fisica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Vinculo_juridico"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,1119 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#"
+     xml:base="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:OntologiaNacionalidadeBrasileira="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira/0.6"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Condenacao_penal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Condenacao_penal">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idoneidade_moral -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idoneidade_moral">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nascimento_no_Brasil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nascimento_no_Brasil">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Opcao_nacionalidade_brasileira -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Opcao_nacionalidade_brasileira"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Origem_lingua_portuguesa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Origem_lingua_portuguesa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Residencia_no_Brasil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Residencia_no_Brasil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Tempo_de_residencia_no_Brasil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Tempo_de_residencia_no_Brasil">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#A_requerimento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#A_requerimento">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nascimento_no_Brasil"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_sanguinis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Definitiva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Definitiva">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nascimento_no_Brasil"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_sanguinis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Estrangeiros_de_qualquer_nacionalidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Estrangeiros_de_qualquer_nacionalidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_naturalizada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_sanguinis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_sanguinis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_nata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_solis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_solis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_a_servico"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nascimento_no_Brasil"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_nata"/>
+        <rdfs:comment xml:lang="pt-br">CF, Art. 12, Inciso I, Alínea a</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Na_forma_da_lei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Na_forma_da_lei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_naturalizada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_nata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_nata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_naturalizada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_naturalizada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_naturalizada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Origem_pais_de_língua_portuguesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Origem_pais_de_língua_portuguesa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nacionalidade_brasileira_naturalizada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registro_exterior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registro_exterior">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nascimento_no_Brasil"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_sanguinis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Suspensivel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Suspensivel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Idade"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Mae_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Pai_brasileiro"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Registrado_reparticao_brasileira"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Nascimento_no_Brasil"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Jus_sanguinis"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso1-Jus_solis_simples -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso1-Jus_solis_simples">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Mae_a_servico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Mae_a_servico>
+        <Mae_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Mae_brasileira>
+        <Nascimento_no_Brasil rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Nascimento_no_Brasil>
+        <Pai_a_servico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Pai_a_servico>
+        <Pai_brasileiro rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Pai_brasileiro>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso2-pais_estrangeiros_a_servico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso2-pais_estrangeiros_a_servico">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Mae_a_servico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Mae_a_servico>
+        <Mae_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Mae_brasileira>
+        <Nascimento_no_Brasil rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Nascimento_no_Brasil>
+        <Pai_a_servico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Pai_a_servico>
+        <Pai_brasileiro rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Pai_brasileiro>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso3-pais_brasileiros_a_servico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso3-pais_brasileiros_a_servico">
+        <Mae_a_servico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Mae_a_servico>
+        <Mae_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Mae_brasileira>
+        <Nascimento_no_Brasil rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Nascimento_no_Brasil>
+        <Pai_a_servico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Pai_a_servico>
+        <Pai_brasileiro rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Pai_brasileiro>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso4-registro_exterior -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso4-registro_exterior">
+        <Idade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Idade>
+        <Mae_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Mae_brasileira>
+        <Nascimento_no_Brasil rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Nascimento_no_Brasil>
+        <Pai_brasileiro rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Pai_brasileiro>
+        <Registrado_reparticao_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Registrado_reparticao_brasileira>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso5-Suspensivel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso5-Suspensivel">
+        <Idade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Idade>
+        <Mae_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Mae_brasileira>
+        <Nascimento_no_Brasil rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Nascimento_no_Brasil>
+        <Pai_brasileiro rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Pai_brasileiro>
+        <Registrado_reparticao_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Registrado_reparticao_brasileira>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso6-A_requerimento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Caso6-A_requerimento">
+        <Idade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</Idade>
+        <Mae_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Mae_brasileira>
+        <Nascimento_no_Brasil rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Nascimento_no_Brasil>
+        <Opcao_nacionalidade_brasileira rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Opcao_nacionalidade_brasileira>
+        <Pai_brasileiro rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Pai_brasileiro>
+        <Residencia_no_Brasil rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Residencia_no_Brasil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#A_requerimento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Definitiva"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Suspensivel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Estrangeiros_de_qualquer_nacionalidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Na_forma_da_lei"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rhuan/ontologies/2019/6/OntologiaNacionalidadeBrasileira#Origem_pais_de_língua_portuguesa"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
